@@ -1,0 +1,182 @@
+@font-face {
+
+    font-family:'yekan';
+    src:url('Yekan.woff') format('woff');
+}
+
+body{
+    background-color: #3b7c7a9a;
+    font-family: 'yekan';
+}
+
+
+.parent{
+
+    background-color:#c5c687;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+    width:500px;
+    height:200px;
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+}
+
+.username{
+
+
+    position: absolute;
+    display:block;
+    width:400px;
+    height:24px;
+    border: none;
+    border-radius:4px;
+    top:40px;
+    left:43px;
+   }
+   .password{
+    position: absolute;
+    display:block;
+    width:400px;
+    height:24px;
+    border: none;
+    border-radius:4px;
+    margin-top:20px;
+    margin-bottom:20px;
+    top:75px;
+    left:43px;
+
+    }
+    .submit{
+    position: absolute;
+    display:block;
+    left:160px;
+    top:150px;
+    background-color:#c5c687;
+    border:3px white solid;
+    padding:5px;
+    border-radius:5px;
+    width:150px;
+    font-weight:800;
+    cursor:pointer;
+    transition: all 0.2s;
+    }
+    .submit:hover{
+
+        transform:scale(1.1);
+        background-color:#000;
+        color:#fff;
+    }
+    .userspan{
+
+        font-size:13px;
+        position: absolute;
+        color:red;
+        top: 65px;
+        left:40px;
+        display: none;
+
+    }
+    .passspan{
+
+        font-size:13px;
+        position: absolute;
+        color:red;
+        top: 120px;
+        left:40px;
+        display: none;
+
+
+    }
+    .svg1{
+
+    position:absolute;
+    width:14px;
+    height:14px;
+    top:43px;
+    left:20px;
+    }
+    .svg2{
+
+        position:absolute;
+        width:14px;
+        height:14px;
+        top:100px;
+        left:20px;
+        }
+
+
+    @media(max-width:600px){
+
+       
+        .parent{
+
+
+            width:500px;
+            height:300px;
+        }
+        .submit{
+
+            top:200px;
+        
+        
+        }
+        .password{
+            top: 100px;
+        }
+        .username{
+            top:60px;
+        }
+        .svg1{
+
+        top:63px ;
+        }
+        .svg2{
+
+            top:124px ;
+            }
+            .submit{
+                width:200px;
+                height:55px;
+                left:138px;
+            }
+            .userspan{
+                top:86px;
+            }
+            .passspan{
+                top:146px;
+            }
+            
+    }
+    @media(max-width:517px){
+
+        .parent{
+
+
+            width:400px;
+            height:250px;
+        }
+        .password{
+            width:300px;
+        }
+        .username{
+            width:300px;
+        }
+        .submit{
+            top:180px;
+            width:150px;
+            height:40px;
+            left:120px;
+
+        }
+
+
+
+
+    }
+
+
+
+
+
